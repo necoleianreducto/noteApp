@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS user;
+
+CREATE TABLE user (
+  ID INT PRIMARY KEY,
+  NAME VARCHAR(32) NOT NULL,
+  SURNAME VARCHAR(32) NOT NULL
+);
+
+INSERT INTO users (ID, NAME, SURNAME) VALUES
+  (1, 'necole', 'reducto'),
+  (2, 'test', 'test');
